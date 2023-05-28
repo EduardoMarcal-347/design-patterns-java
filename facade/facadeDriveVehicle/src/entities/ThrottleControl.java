@@ -1,3 +1,5 @@
+package entities;
+
 public class ThrottleControl {
 
     private Double speed;

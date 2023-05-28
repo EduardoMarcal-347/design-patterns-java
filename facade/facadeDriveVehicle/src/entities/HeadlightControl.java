@@ -1,3 +1,5 @@
+package entities;
+
 public class HeadlightControl {
 
     private boolean enabled;
