@@ -1,8 +1,8 @@
-public class throttleControl {
+public class ThrottleControl {
 
     private Double speed;
 
-    public throttleControl() {
+    public ThrottleControl() {
         this.speed = 0D;
     }
 

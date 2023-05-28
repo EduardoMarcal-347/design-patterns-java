@@ -1,8 +1,8 @@
-public class gearControl {
+public class GearControl {
 
     private int gear;
 
-    public gearControl() {
+    public GearControl() {
         this.gear = 0;
     }
 
