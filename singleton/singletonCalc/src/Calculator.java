@@ -22,5 +22,5 @@ public class Calculator {
     public Double divide(Double x, Double y){
         return x / y;
     }
-    
+
 }
