@@ -10,4 +10,17 @@ public class Calculator {
         return instance;
     }
 
+    public Double sum(Double x, Double y){
+        return x + y;
+    }
+    public Double subtract(Double x, Double y){
+        return x - y;
+    }
+    public Double multiply(Double x, Double y){
+        return x * y;
+    }
+    public Double divide(Double x, Double y){
+        return x / y;
+    }
+    
 }
