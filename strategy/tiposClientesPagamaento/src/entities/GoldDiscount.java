@@ -6,4 +6,5 @@ public class GoldDiscount implements DiscountStrategy{
     public Double discountAplly(Double value) {
         return value*0.85; //15% de desconto
     }
+
 }
