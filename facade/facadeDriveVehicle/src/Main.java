@@ -11,6 +11,7 @@ public class Main {
         carro.speedUp();
         carro.shiftUp();
         carro.speedUp();
+        carro.shiftUp();
         carro.speedUp();
         carro.brake();
         carro.brake();
