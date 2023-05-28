@@ -6,10 +6,7 @@ public class DriveMechanism {
     HeadlightControl lights = new HeadlightControl();
     ThrottleControl acceleration = new ThrottleControl();
 
-    public DriveMechanism(GearControl gear, HeadlightControl lights, ThrottleControl acceleration) {
-        this.gear = gear;
-        this.lights = lights;
-        this.acceleration = acceleration;
+    public DriveMechanism() {
     }
 
     public void speedUp(){
@@ -19,7 +16,7 @@ public class DriveMechanism {
     public void brake(){
         acceleration.brake();
     }
-    
+
     public void shiftUp(){
         gear.shiftUp();
     }
