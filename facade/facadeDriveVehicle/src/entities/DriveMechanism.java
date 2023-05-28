@@ -11,4 +11,29 @@ public class DriveMechanism {
         this.lights = lights;
         this.acceleration = acceleration;
     }
+
+    public void speedUp(){
+        acceleration.speedUp();
+    }
+
+    public void brake(){
+        acceleration.brake();
+    }
+    
+    public void shiftUp(){
+        gear.shiftUp();
+    }
+
+    public void shiftDown(){
+        gear.shiftDown();
+    }
+
+    public void turnLightsOn(){
+        lights.turnLightsOn();
+    }
+
+    public void turnLightsOff(){
+        lights.turnLightsOff();
+    }
+
 }
