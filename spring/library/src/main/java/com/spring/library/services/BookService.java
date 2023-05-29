@@ -12,7 +12,7 @@ import java.util.Optional;
 public class BookService {
 
     @Autowired
-    BookRepository repository;
+    private BookRepository repository;
 
     public List<Book> findAllBooks(){
         return repository.findAll();
