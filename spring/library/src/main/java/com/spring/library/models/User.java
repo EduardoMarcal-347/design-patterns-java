@@ -20,7 +20,7 @@ public class User implements Serializable {
     private String phone;
 
     @Column(name = "user_book", length = 25)
-    private String borrowedBook;
+    private Book borrowedBook;
 
     public User() {
     }
