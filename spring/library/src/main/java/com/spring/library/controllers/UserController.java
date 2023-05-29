@@ -2,6 +2,7 @@ package com.spring.library.controllers;
 
 import com.spring.library.models.User;
 import com.spring.library.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.Optional;
 @RequestMapping("api/")
 public class UserController {
 
+    @Autowired
     private UserService service;
 
     @GetMapping("users")
