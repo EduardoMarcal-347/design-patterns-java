@@ -63,6 +63,14 @@ public class User implements Serializable {
         this.phone = phone;
     }
 
+    public Book getBorrowedBook() {
+        return borrowedBook;
+    }
+
+    public void setBorrowedBook(Book borrowedBook) {
+        this.borrowedBook = borrowedBook;
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -70,6 +78,7 @@ public class User implements Serializable {
                 ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", phone='" + phone + '\'' +
+                ", borrowedBook=" + borrowedBook +
                 '}';
     }
 
