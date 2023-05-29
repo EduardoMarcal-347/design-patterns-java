@@ -19,6 +19,9 @@ public class User implements Serializable {
     @Column(name = "user_phone", length = 25, nullable = false)
     private String phone;
 
+    @Column(name = "user_book", length = 25)
+    private String borrowedBook;
+
     public User() {
     }
 
