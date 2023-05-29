@@ -19,7 +19,7 @@ public class Book implements Serializable {
     @Column(name = "book_author", length = 75, nullable = false)
     private String author;
 
-    @Column(name = "user")
+    @Column(name = "user_name")
     private String user;
 
     public Book() {
