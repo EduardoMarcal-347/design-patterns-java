@@ -20,7 +20,7 @@ public class Book implements Serializable {
     private String author;
 
     @Column(name = "user")
-    private User user;
+    private String user;
 
     public Book() {
     }
@@ -54,11 +54,11 @@ public class Book implements Serializable {
         this.author = author;
     }
 
-    public User getUser() {
+    public String getUser() {
         return user;
     }
 
-    public void setUser(User user) {
+    public void setUser(String user) {
         this.user = user;
     }
 

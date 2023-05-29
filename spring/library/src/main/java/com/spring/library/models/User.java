@@ -21,7 +21,7 @@ public class User implements Serializable {
     private String phone;
 
     @Column(name = "user_book")
-    private Book borrowedBook;
+    private String borrowedBook;
 
     public User() {
     }
@@ -64,11 +64,11 @@ public class User implements Serializable {
         this.phone = phone;
     }
 
-    public Book getBorrowedBook() {
+    public String getBorrowedBook() {
         return borrowedBook;
     }
 
-    public void setBorrowedBook(Book borrowedBook) {
+    public void setBorrowedBook(String borrowedBook) {
         this.borrowedBook = borrowedBook;
     }
 
